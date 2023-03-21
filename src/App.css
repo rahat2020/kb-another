@@ -1,0 +1,9 @@
+.links{
+    text-decoration: none;
+    color: #777;
+    transition: all 0.5s ease;
+}
+.links:hover{
+    color: #979797;
+    transform: translateX(10px);
+}

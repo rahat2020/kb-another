@@ -1,0 +1,69 @@
+.sd {
+    overflow: hidden !important;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+}
+
+.spfristbox,.spscndbox {
+    max-width: 360px;
+}
+
+.spd_title {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.spd_para {
+    color: #777777;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.spdress {
+    overflow: hidden;
+    background-image: url('https://res.cloudinary.com/rahatdev1020/image/upload/v1679383301/upload/second_com_trg1dx.jpg');
+    /* background-image: url('../../assets/second_com.jpg'); */
+    background-position: center;
+    height: 175vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.spscndbox{
+    margin-top: 12rem;
+}
+.spscndbox .spdscnd_title{
+    font-family: "Playfair Display", sans-serif;
+    color: #0B0B0B;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+/* monitor styles */
+@media only screen and (min-width: 1468px){
+    .spfristbox, .spscndbox {
+        max-width: 360px;
+        margin-top: 21rem;
+    }
+}
+@media only screen and (max-width: 393px){
+    .sd{
+        display: none;
+    }
+}
+@media only screen and (max-width: 468px){
+    .sd{
+        display: none;
+    }
+}

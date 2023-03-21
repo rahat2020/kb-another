@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+.wmncollections{
+    width: 100vw;
+    height: auto;
+}
+.slide {
+    height: 620px;
+    object-fit: cover;
+}
+.caru{
+    position: relative;
+}
+.caru .slide {
+    opacity: 0.5;
+  }
+  .caru .carutextbox{
+    opacity: 1;
+  }
+.carutextbox{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.carutextbox .cartext{
+    color: #686767;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.carutextbox .carutitle{
+    color: #686767;
+    letter-spacing: 0.02em;
+    font-size: 65px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+/* cards styles */
+.wmncards{
+    height: auto;
+    margin-bottom: 40px;
+}
+.wmn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 2rem;
+}
+.wmncards .wmntext{
+    color: #686767;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.wmncards .wmntitle{
+    color: #686767;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* images styles */
+.imgwithtextbox{
+    width: 16.75rem;
+    height: 25rem;
+    margin-bottom: 5rem;
+    
+}
+.imgwithtextbox .wmnimg{
+    width: 16.75rem;
+    height: 25rem;
+    border: 3px solid #89898982;
+    object-fit: contain;
+    box-shadow: 3px 3px 5px 1px rgba(240,235,235,0.75);
+-webkit-box-shadow: 3px 3px 5px 1px rgba(240,235,235,0.75);
+-moz-box-shadow: 3px 3px 5px 1px rgba(240,235,235,0.75);
+}
+.imgwithtextbox .imgtexts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
