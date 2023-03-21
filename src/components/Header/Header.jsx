@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import WebNav from '../WebNav/WebNav';
 import './Header.css';
+// import stockVideo from '../../assets/stockvideo2.mp4';
 import stockVideo from '../../assets/stockvideo.mp4';
 import flower from '../../assets/flower.png';
 import Hori_flower from '../../assets/horizontal_flower.png';
@@ -25,17 +26,6 @@ const Header = () => {
                         autoPlay
                         loop
                         id="video"
-                    // style={{
-                    //     position: 'absolute',
-                    //     width: '100%',
-                    //     left: '50%',
-                    //     top: '50%',
-                    //     height: '100%',
-                    //     objectFit: 'cover',
-                    //     transform: 'translate(-50%, -50%)',
-                    //     zIndex: "-1"
-                    // }}
-
                     >
                         <source src={stockVideo} type="video/mp4" />
                     </video>

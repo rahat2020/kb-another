@@ -1,5 +1,5 @@
 .abouts {
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -88,5 +88,5 @@
     font-family: 'Crimson Text';
     font-weight: 400;
     font-style: normal;
-    ;
+    
 }

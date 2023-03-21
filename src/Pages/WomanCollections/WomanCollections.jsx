@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './WomanCollections.css';
 import one from '../../assets/slideone.jpg';
 import two from '../../assets/slidetwo.jpg';
@@ -11,6 +11,13 @@ import wmnsix from '../../assets/6.jpg';
 
 
 const WomanCollections = () => {
+  useEffect(() => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+}, [])
   return (
     <div className="wmncollections">
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">

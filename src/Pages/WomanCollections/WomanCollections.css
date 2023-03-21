@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 .wmncollections{
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 .slide {
@@ -102,4 +102,11 @@
     align-items: center;
     flex-direction: column;
 
+}
+
+@media only screen and (min-width:1468px){
+    .slide {
+        height: 1051px;
+        object-fit: cover;
+    }
 }

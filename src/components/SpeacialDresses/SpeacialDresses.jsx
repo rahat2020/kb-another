@@ -5,13 +5,6 @@ import ReactAudioPlayer from 'react-audio-player';
 import { Link } from 'react-router-dom';
 
 const SpeacialDresses = () => {
-    useEffect(() => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-
-    }, [])
     return (
         <div className='sd'>
             <div className="spdress">

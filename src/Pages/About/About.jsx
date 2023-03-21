@@ -1,9 +1,16 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './About.css';
 import khaneone from '../../assets/khan1.jpg';
 import khantwo from '../../assets/khan2.jpg';
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+}, [])
   return (
     <div className="abouts">
       <div className="container">

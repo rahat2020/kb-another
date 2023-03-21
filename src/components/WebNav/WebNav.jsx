@@ -62,7 +62,7 @@ const WebNav = ({ open, setOpen }) => {
 
             {/* mobile navbar view  */}
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-transparent navBarmbl">
+            <nav className="navbar navbar-expand-lg   navBarmbl">
                 <div className="container">
                     <div className="nav_icon">
                         {
@@ -87,24 +87,32 @@ const WebNav = ({ open, setOpen }) => {
                         <i className="fa-sharp fa-solid fa-bars barsicon"></i>
                     </button>
                     {/* web */}
-                    <div className="collapse navbar-collapse web_version" id="navbarSupportedContent">
-                        <div className="nav-item ms-auto">
-                            <a className="nav-link nav_items" href="#">
-                                <h4 className='logoNme'>
-                                    <img src={logo} alt="logo" className='logo_png' />
-                                </h4>
-                            </a>
-                        </div>
+                    <div className="collapse navbar-collapse bg-black " id="navbarSupportedContent">
                         <ul className="navbar-nav  ms-auto mb-2 mb-lg-0 text-white">
                             <li className="nav-item">
-                                <a className="nav-link nav_items" href="#">
-                                    <LocalMallIcon className='cart_icon' />
-                                </a>
+                                <Link to="/" className="nav-link nav_items">
+                                    Home
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav_items" href="#">
-                                    <SearchIcon className='cart_icon' />
-                                </a>
+                                <Link to="/aboutus" className="nav-link nav_items">
+                                    About Us
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/mencollections" className="nav-link nav_items">
+                                    Men Collections
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/womancollections" className="nav-link nav_items">
+                                    About Us
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/bridegroom" className="nav-link nav_items">
+                                    Bride and Groom
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -125,7 +133,7 @@ const WebNav = ({ open, setOpen }) => {
                                             <Link to="/womancollections" className="hmbannerLinks">Luxury Lingerie</Link>
                                             <Link to="/womancollections" className="hmbannerLinks">Bridal Collection</Link>
                                             <Link to="/womancollections" className="hmbannerLinks">The Boutique</Link>
-                                            <Link to="/mencollections" className="hmbannerLinks">Bride and Groom</Link>
+                                            <Link to="/bridegroom" className="hmbannerLinks">Bride and Groom</Link>
                                         </div>
                                     </div>
                                     <div className="col-md-6">

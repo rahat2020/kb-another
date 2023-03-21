@@ -1,6 +1,6 @@
-.missions{
-    background-color: #FFFFFF;
-}
+/* .missions{
+    background-color: #c70000;
+} */
 .misLeft{
     /* border: 1px solid #000; */
     height: 100vh;
@@ -8,7 +8,7 @@
 }
 .misLeft .miss_leftbox{
     margin-top: 4rem;
-    padding: 4rem;
+    padding: 6rem 0 0 0;
 }
 .miss_subtitle{
     color: #777777;
@@ -21,7 +21,9 @@
     color: #0b0b0b;
     font-size: 36px;
 }
-
+/* .msbtnext:hover{
+    transform: translateX(10px)
+} */
 /* roght sides styles */
 .missRight{
     position: relative;
@@ -71,16 +73,43 @@
         height: 100vh;
         max-width: 655px;
         /* width: 100%; */
-        margin-left: 40rem;
+        margin-left: 0;
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
-    
+    .misLeft .miss_leftbox {
+        margin-top: -10rem;
+        padding: 6rem 0 0 0;
+    }
 }
 
 /* responsive styles */
 @media only screen and (max-width:393px){
+    .misLeft .miss_leftbox {
+        margin-top: 4rem;
+        padding: 2rem;
+    }
+    .misLeft {
+        height: 100%;
+        width: 100%;
+    }
+    .missRight {
+        position: relative;
+        /* border: 1px solid #000; */
+        height: 46vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .missrightVideo {
+        width: 349px;
+        margin: 23px;
+        height: 337px;
+    }
+}
+/* responsive styles */
+@media only screen and (max-width:468px){
     .misLeft .miss_leftbox {
         margin-top: 4rem;
         padding: 2rem;

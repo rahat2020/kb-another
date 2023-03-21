@@ -1,0 +1,158 @@
+.bridegroom{
+    width: 100%;
+    height: auto;
+}
+
+.brgm{ 
+    margin-top: 2rem;
+}
+.bridegroom{
+    margin-bottom: 40px;
+}
+.brgm_title{
+    color: #686767;
+    text-transform: none;
+    letter-spacing: 0.05em;
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .brgmContainer{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20%;
+} */
+.brgmContainer .brgmvideo{
+    width: 400px;
+    height: 500px;
+}
+.brgmright{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+
+}
+.brgmrightTitle{
+    color: rgba(64, 64, 65, 1);
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    text-align: justify;
+    font-family: 'Crimson Text';
+    font-weight: 400;
+    font-style: normal;
+}
+.brgmrightsubTitle{
+    text-transform: capitalize;
+    font-family: 'Crimson Text';
+    font-weight: 400;
+    font-style: normal;
+}
+.brgmparacon{
+    text-align: left;
+    margin-top: 2rem;
+}
+.brgmparacon .brgmpara{
+    color: rgba(64, 64, 65, 1);
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Crimson Text';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* card images */
+.weddingtitle{
+    margin-top: 2rem;
+}
+.brgmdress_container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brdcardimgs_con{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 5px;
+}
+.imageconts{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .brdcardimgs_con:hover .imageconts {
+    opacity: 0.3;
+  }
+  
+  .brdcardimgs_con:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #404041;
+    font-size: 16px;
+    padding: 16px 32px;
+  }  
+
+  /* big images */
+  .brgmBig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.brgbigimg_container{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 5px;
+}
+.imageBigconts{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.brgbigimg_container:hover .imageBigconts {
+    opacity: 0.3;
+  }
+  
+  .brgbigimg_container:hover .middle {
+    opacity: 1;
+  }
